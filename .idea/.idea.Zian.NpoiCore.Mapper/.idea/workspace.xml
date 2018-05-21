@@ -1,0 +1,1700 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d3ee1f9a-aa34-4fde-b116-df1544afa9d9" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ExcelMapper.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Zian.EPPlus.Mapper/ExcelMapper.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+              <folding>
+                <marker date="1526863043434" expanded="true" signature="6:47" ph="..." />
+                <marker date="1526863043434" expanded="true" signature="77:322" ph="{...}" />
+                <marker date="1526863043434" expanded="true" signature="108:320" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MapHelper.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Zian.NpoiCore.Mapper/MapHelper.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="75" selection-start-line="75" selection-end-line="75" />
+              <folding>
+                <marker date="1526809187810" expanded="false" signature="6:291" ph="..." />
+                <marker date="1526809187810" expanded="true" signature="323:23185" ph="{...}" />
+                <marker date="1526809187810" expanded="true" signature="330:444" ph="/// Provide static supportive functionalities for &lt;see cref=&quot;Mapper&quot;/&gt; class. ... " />
+                <marker date="1526809187810" expanded="true" signature="471:23183" ph="{...}" />
+                <marker date="1526809187810" expanded="false" signature="486:2600" ph="Fields" />
+                <marker date="1526809187810" expanded="true" signature="510:634" ph="/// Stores cached built-in styles to avoid create new ICellStyle for each cell. ... " />
+                <marker date="1526809187810" expanded="true" signature="753:886" ph="/// Stores cached custom styles to avoid create new ICellStyle for each customized cell. ... " />
+                <marker date="1526809187810" expanded="true" signature="1006:1134" ph="/* Column chars that will be used for Excel columns. ... */" />
+                <marker date="1526809187810" expanded="true" signature="1920:2010" ph="/// Caches for type of string during parsing. ... " />
+                <marker date="1526809187810" expanded="true" signature="2085:2177" ph="/// Caches for type of DateTime during parsing. ... " />
+                <marker date="1526809187810" expanded="true" signature="2256:2331" ph="/// Caches for type of object. ... " />
+                <marker date="1526809187810" expanded="true" signature="2406:2525" ph="/// The maximum row number during the detection for column type and style. ... " />
+                <marker date="1526809187810" expanded="true" signature="2610:19263" ph="Public Methods" />
+                <marker date="1526809187810" expanded="true" signature="2642:2862" ph="/// Loads attributes to a dictionary. ... " />
+                <marker date="1526809187810" expanded="true" signature="2969:3913" ph="{...}" />
+                <marker date="1526809187810" expanded="true" signature="3082:3903" ph="{...}" />
+                <marker date="1526809187810" expanded="true" signature="3525:3691" ph="{...}" />
+                <marker date="1526809187810" expanded="true" signature="3923:4276" ph="/// Loads dynamic attributes to a dictionary. ... " />
+                <marker date="1526809187810" expanded="true" signature="4452:4779" ph="{...}" />
+                <marker date="1526809187810" expanded="true" signature="4514:4769" ph="{...}" />
+                <marker date="1526809187810" expanded="true" signature="4621:4755" ph="{...}" />
+                <marker date="1526809187810" expanded="true" signature="4789:4896" ph="/// Clear cached data for cell styles and tracked column info. ... " />
+                <marker date="1526809187810" expanded="true" signature="4929:5020" ph="{...}" />
+                <marker date="1526809187810" expanded="true" signature="5030:5466" ph="/// Load cell data format by a specified row. ... " />
+                <marker date="1526809187810" expanded="true" signature="5614:6905" ph="{...}" />
+                <marker date="1526809187810" expanded="true" signature="5749:6895" ph="{...}" />
+                <marker date="1526809187810" expanded="true" signature="5920:6344" ph="{...}" />
+                <marker date="1526809187810" expanded="true" signature="6013:6129" ph="{...}" />
+                <marker date="1526809187810" expanded="true" signature="6204:6326" ph="{...}" />
+                <marker date="1526809187810" expanded="true" signature="6528:6881" ph="{...}" />
+                <marker date="1526809187810" expanded="true" signature="6915:7292" ph="/// Get the cell style. ... " />
+                <marker date="1526809187810" expanded="true" signature="7385:8521" ph="{...}" />
+                <marker date="1526809187810" expanded="true" signature="7544:7931" ph="{...}" />
+                <marker date="1526809187810" expanded="true" signature="7619:7712" ph="{...}" />
+                <marker date="1526809187810" expanded="true" signature="7755:7917" ph="{...}" />
+                <marker date="1526809187810" expanded="true" signature="7970:8484" ph="{...}" />
+                <marker date="1526809187810" expanded="true" signature="8084:8153" ph="{...}" />
+                <marker date="1526809187810" expanded="true" signature="8210:8298" ph="{...}" />
+                <marker date="1526809187810" expanded="true" signature="8319:8470" ph="{...}" />
+                <marker date="1526809187810" expanded="true" signature="8531:8866" ph="/// Creates a &lt;see cref=&quot;ICellStyle&quot;/&gt; object by the given &lt;see cref=&quot;IWorkbook&quot;/&gt;. ... " />
+                <marker date="1526809187810" expanded="true" signature="8950:9358" ph="{...}" />
+                <marker date="1526809187810" expanded="true" signature="9368:9704" ph="/// Creates a &lt;see cref=&quot;ICellStyle&quot;/&gt; object by the given &lt;see cref=&quot;IWorkbook&quot;/&gt;. ... " />
+                <marker date="1526809187810" expanded="true" signature="9787:10053" ph="{...}" />
+                <marker date="1526809187810" expanded="true" signature="10063:10498" ph="/// Gets a &lt;see cref=&quot;ICellStyle&quot;/&gt; object based on value's type by looking up the default format dictionary. ... " />
+                <marker date="1526809187810" expanded="true" signature="10615:11324" ph="{...}" />
+                <marker date="1526809187810" expanded="true" signature="10951:11008" ph="{...}" />
+                <marker date="1526809187810" expanded="true" signature="11061:11195" ph="{...}" />
+                <marker date="1526809187810" expanded="true" signature="11212:11287" ph="{...}" />
+                <marker date="1526809187810" expanded="true" signature="11334:11538" ph="/// Get underline cell type if the cell is in formula. ... " />
+                <marker date="1526809187810" expanded="true" signature="11593:11714" ph="{...}" />
+                <marker date="1526809187810" expanded="true" signature="11724:12085" ph="/// Try get cell value. ... " />
+                <marker date="1526809187810" expanded="true" signature="12175:13342" ph="{...}" />
+                <marker date="1526809187810" expanded="true" signature="12327:13303" ph="{...}" />
+                <marker date="1526809187810" expanded="true" signature="12611:12707" ph="{...}" />
+                <marker date="1526809187810" expanded="true" signature="12747:12846" ph="{...}" />
+                <marker date="1526809187810" expanded="true" signature="13352:13705" ph="/// Get mapped &lt;c&gt;PropertyInfo&lt;/c&gt; by property selector expression. ... " />
+                <marker date="1526809187810" expanded="true" signature="13817:14487" ph="{...}" />
+                <marker date="1526809187810" expanded="true" signature="14265:14400" ph="/* body.Member will return the MemberInfo of base class, so we have to get it from T... ... */" />
+                <marker date="1526809187810" expanded="true" signature="14497:14919" ph="/// Get refined name by removing specified chars and truncating by specified chars. ... " />
+                <marker date="1526809187810" expanded="true" signature="15022:15538" ph="{...}" />
+                <marker date="1526809187810" expanded="true" signature="15548:16094" ph="/// Get a valid variable name by removing specified chars and truncating by specified chars. ... " />
+                <marker date="1526809187810" expanded="true" signature="16218:16481" ph="{...}" />
+                <marker date="1526809187810" expanded="true" signature="16355:16442" ph="{...}" />
+                <marker date="1526809187810" expanded="true" signature="16491:16726" ph="/// Get column name in Excel, like A, B, AC. ... " />
+                <marker date="1526809187810" expanded="true" signature="16791:17289" ph="{...}" />
+                <marker date="1526809187810" expanded="true" signature="17299:17724" ph="/// Determines the data type for the specified column according the first non-blank data cell. ... " />
+                <marker date="1526809187810" expanded="true" signature="17815:19243" ph="{...}" />
+                <marker date="1526809187810" expanded="true" signature="18237:19207" ph="{...}" />
+                <marker date="1526809187810" expanded="true" signature="18390:19165" ph="{...}" />
+                <marker date="1526809187810" expanded="true" signature="18541:19147" ph="{...}" />
+                <marker date="1526809187810" expanded="true" signature="19389:20235" ph="{...}" />
+                <marker date="1526809187810" expanded="true" signature="19412:19478" ph="/* For now, only take care DateTime. ... */" />
+                <marker date="1526809187810" expanded="true" signature="19537:19672" ph="{...}" />
+                <marker date="1526809187810" expanded="true" signature="19717:20225" ph="{...}" />
+                <marker date="1526809187810" expanded="true" signature="19935:20211" ph="{...}" />
+                <marker date="1526809187810" expanded="true" signature="20077:20193" ph="{...}" />
+                <marker date="1526809187810" expanded="true" signature="20396:22673" ph="{...}" />
+                <marker date="1526809187810" expanded="true" signature="20844:22452" ph="{...}" />
+                <marker date="1526809187810" expanded="true" signature="20904:21015" ph="{...}" />
+                <marker date="1526809187810" expanded="true" signature="21064:21445" ph="{...}" />
+                <marker date="1526809187810" expanded="true" signature="21303:21427" ph="{...}" />
+                <marker date="1526809187810" expanded="true" signature="21571:21715" ph="{...}" />
+                <marker date="1526809187810" expanded="true" signature="21755:21896" ph="{...}" />
+                <marker date="1526809187810" expanded="true" signature="22041:22438" ph="{...}" />
+                <marker date="1526809187810" expanded="true" signature="22123:22204" ph="{...}" />
+                <marker date="1526809187810" expanded="true" signature="22338:22420" ph="{...}" />
+                <marker date="1526809187810" expanded="true" signature="22469:22561" ph="{...}" />
+                <marker date="1526809187810" expanded="true" signature="22592:22637" ph="{...}" />
+                <marker date="1526809187810" expanded="true" signature="22800:23177" ph="{...}" />
+                <marker date="1526809187810" expanded="true" signature="22933:23141" ph="{...}" />
+                <marker date="1526809187810" expanded="true" signature="23064:23127" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CellMapper.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Zian.EPPlus.Mapper/CellMapper.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+              <folding>
+                <marker date="1526863031080" expanded="false" signature="6:47" ph="..." />
+                <marker date="1526863031080" expanded="true" signature="77:477" ph="{...}" />
+                <marker date="1526863031080" expanded="true" signature="107:475" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MapperHelper.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Zian.EPPlus.Mapper/MapperHelper.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+              <folding>
+                <marker date="1526862812831" expanded="true" signature="28:154" ph="{...}" />
+                <marker date="1526862812831" expanded="true" signature="74:95" ph="{...}" />
+                <marker date="1526862812831" expanded="true" signature="131:152" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Map&lt;T&gt;</find>
+      <find>Map</find>
+      <find>PropertyName</find>
+    </findStrings>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Zian.EPPlus.Mapper/MapperHelper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Zian.EPPlus.Mapper/CellMapper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Zian.NpoiCore.Mapper/RowInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Zian.NpoiCore.Mapper/IRowInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Zian.NpoiCore.Mapper/IColumnInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Zian.NpoiCore.Mapper/Mapper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Zian.NpoiCore.Mapper/AnonymousTypeFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Zian.NpoiCore.Mapper/ColumnInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Zian.NpoiCore.Mapper/MapHelper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Zian.NpoiCore.Mapper/Extensions/FormatExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Zian.NpoiCore.Mapper/Extensions/EnumerableExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Zian.NpoiCore.Mapper/Extensions/TypeExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Zian.NpoiCore.Mapper/Extensions/MapExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Zian.NpoiCore.Mapper/Attributes/UseLastNonBlankValueAttribute.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Zian.NpoiCore.Mapper/Attributes/ColumnAttribute.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Zian.NpoiCore.Mapper/Attributes/IgnoreAttribute.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Zian.EPPlus.Mapper/ExcelMapper.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Zian.NpoiCore.Mapper/IRowInfo.cs" />
+        <option value="$PROJECT_DIR$/Zian.NpoiCore.Mapper/IColumnInfo.cs" />
+        <option value="$PROJECT_DIR$/Zian.NpoiCore.Mapper/ColumnInfo.cs" />
+        <option value="$PROJECT_DIR$/Zian.NpoiCore.Mapper/AnonymousTypeFactory.cs" />
+        <option value="$PROJECT_DIR$/Zian.NpoiCore.Mapper/Extensions/TypeExtensions.cs" />
+        <option value="$PROJECT_DIR$/Zian.NpoiCore.Mapper/Extensions/MapExtensions.cs" />
+        <option value="$PROJECT_DIR$/Zian.NpoiCore.Mapper/Extensions/FormatExtensions.cs" />
+        <option value="$PROJECT_DIR$/Zian.NpoiCore.Mapper/Extensions/EnumerableExtensions.cs" />
+        <option value="$PROJECT_DIR$/Zian.NpoiCore.Mapper/Attributes/ColumnAttribute.cs" />
+        <option value="$PROJECT_DIR$/Zian.NpoiCore.Mapper/Attributes/IgnoreAttribute.cs" />
+        <option value="$PROJECT_DIR$/Zian.NpoiCore.Mapper/Attributes/UseLastNonBlankValueAttribute.cs" />
+        <option value="$PROJECT_DIR$/Zian.NpoiCore.Mapper/MapHelper.cs" />
+        <option value="$PROJECT_DIR$/Zian.NpoiCore.Mapper/Mapper.cs" />
+        <option value="$PROJECT_DIR$/Zian.NpoiCore.Mapper/RowInfo.cs" />
+        <option value="$PROJECT_DIR$/Zian.NpoiCore.Mapper/Zian.NpoiCore.Mapper.csproj" />
+        <option value="$PROJECT_DIR$/Zian.EPPlus.Mapper/Class1.cs" />
+        <option value="$PROJECT_DIR$/Zian.EPPlus.Mapper/ColumnMapper.cs" />
+        <option value="$PROJECT_DIR$/Zian.EPPlus.Mapper/ExcelMapper.cs" />
+        <option value="$PROJECT_DIR$/Zian.EPPlus.Mapper/MapperHelper.cs" />
+        <option value="$PROJECT_DIR$/Zian.EPPlus.Mapper/CellMapper.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="1440" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Zian.NpoiCore.Mapper (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Zian.NpoiCore.Mapper (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Zian.EPPlus.Mapper" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Zian.NpoiCore.Mapper (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Zian.NpoiCore.Mapper" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Zian.NpoiCore.Mapper (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Zian.NpoiCore.Mapper" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Attributes" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d3ee1f9a-aa34-4fde-b116-df1544afa9d9" name="Default" comment="" />
+      <created>1526808829583</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1526808829583</updated>
+      <workItem from="1526808831112" duration="2600000" />
+      <workItem from="1526818557749" duration="1123000" />
+      <workItem from="1526859687071" duration="2221000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5944000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1440" y="0" width="1920" height="1080" extended-state="0" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Unit Tests" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.22885571" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17838125" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32935324" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.32935324" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" isUnityUI="false" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Zian.NpoiCore.Mapper/Zian.NpoiCore.Mapper.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zian.NpoiCore.Mapper/MapHelper.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
+          <folding>
+            <marker date="1526809187810" expanded="false" signature="6:291" ph="..." />
+            <marker date="1526809187810" expanded="true" signature="323:23185" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="330:444" ph="/// Provide static supportive functionalities for &lt;see cref=&quot;Mapper&quot;/&gt; class. ... " />
+            <marker date="1526809187810" expanded="true" signature="471:23183" ph="{...}" />
+            <marker date="1526809187810" expanded="false" signature="486:2600" ph="Fields" />
+            <marker date="1526809187810" expanded="true" signature="510:634" ph="/// Stores cached built-in styles to avoid create new ICellStyle for each cell. ... " />
+            <marker date="1526809187810" expanded="true" signature="753:886" ph="/// Stores cached custom styles to avoid create new ICellStyle for each customized cell. ... " />
+            <marker date="1526809187810" expanded="true" signature="1006:1134" ph="/* Column chars that will be used for Excel columns. ... */" />
+            <marker date="1526809187810" expanded="true" signature="1920:2010" ph="/// Caches for type of string during parsing. ... " />
+            <marker date="1526809187810" expanded="true" signature="2085:2177" ph="/// Caches for type of DateTime during parsing. ... " />
+            <marker date="1526809187810" expanded="true" signature="2256:2331" ph="/// Caches for type of object. ... " />
+            <marker date="1526809187810" expanded="true" signature="2406:2525" ph="/// The maximum row number during the detection for column type and style. ... " />
+            <marker date="1526809187810" expanded="true" signature="2610:19263" ph="Public Methods" />
+            <marker date="1526809187810" expanded="true" signature="2642:2862" ph="/// Loads attributes to a dictionary. ... " />
+            <marker date="1526809187810" expanded="true" signature="2969:3913" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="3082:3903" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="3525:3691" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="3923:4276" ph="/// Loads dynamic attributes to a dictionary. ... " />
+            <marker date="1526809187810" expanded="true" signature="4452:4779" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="4514:4769" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="4621:4755" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="4789:4896" ph="/// Clear cached data for cell styles and tracked column info. ... " />
+            <marker date="1526809187810" expanded="true" signature="4929:5020" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="5030:5466" ph="/// Load cell data format by a specified row. ... " />
+            <marker date="1526809187810" expanded="true" signature="5614:6905" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="5749:6895" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="5920:6344" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="6013:6129" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="6204:6326" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="6528:6881" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="6915:7292" ph="/// Get the cell style. ... " />
+            <marker date="1526809187810" expanded="true" signature="7385:8521" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="7544:7931" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="7619:7712" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="7755:7917" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="7970:8484" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="8084:8153" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="8210:8298" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="8319:8470" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="8531:8866" ph="/// Creates a &lt;see cref=&quot;ICellStyle&quot;/&gt; object by the given &lt;see cref=&quot;IWorkbook&quot;/&gt;. ... " />
+            <marker date="1526809187810" expanded="true" signature="8950:9358" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="9368:9704" ph="/// Creates a &lt;see cref=&quot;ICellStyle&quot;/&gt; object by the given &lt;see cref=&quot;IWorkbook&quot;/&gt;. ... " />
+            <marker date="1526809187810" expanded="true" signature="9787:10053" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="10063:10498" ph="/// Gets a &lt;see cref=&quot;ICellStyle&quot;/&gt; object based on value's type by looking up the default format dictionary. ... " />
+            <marker date="1526809187810" expanded="true" signature="10615:11324" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="10951:11008" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="11061:11195" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="11212:11287" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="11334:11538" ph="/// Get underline cell type if the cell is in formula. ... " />
+            <marker date="1526809187810" expanded="true" signature="11593:11714" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="11724:12085" ph="/// Try get cell value. ... " />
+            <marker date="1526809187810" expanded="true" signature="12175:13342" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="12327:13303" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="12611:12707" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="12747:12846" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="13352:13705" ph="/// Get mapped &lt;c&gt;PropertyInfo&lt;/c&gt; by property selector expression. ... " />
+            <marker date="1526809187810" expanded="true" signature="13817:14487" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="14265:14400" ph="/* body.Member will return the MemberInfo of base class, so we have to get it from T... ... */" />
+            <marker date="1526809187810" expanded="true" signature="14497:14919" ph="/// Get refined name by removing specified chars and truncating by specified chars. ... " />
+            <marker date="1526809187810" expanded="true" signature="15022:15538" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="15548:16094" ph="/// Get a valid variable name by removing specified chars and truncating by specified chars. ... " />
+            <marker date="1526809187810" expanded="true" signature="16218:16481" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="16355:16442" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="16491:16726" ph="/// Get column name in Excel, like A, B, AC. ... " />
+            <marker date="1526809187810" expanded="true" signature="16791:17289" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="17299:17724" ph="/// Determines the data type for the specified column according the first non-blank data cell. ... " />
+            <marker date="1526809187810" expanded="true" signature="17815:19243" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="18237:19207" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="18390:19165" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="18541:19147" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="19389:20235" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="19412:19478" ph="/* For now, only take care DateTime. ... */" />
+            <marker date="1526809187810" expanded="true" signature="19537:19672" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="19717:20225" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="19935:20211" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="20077:20193" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="20396:22673" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="20844:22452" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="20904:21015" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="21064:21445" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="21303:21427" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="21571:21715" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="21755:21896" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="22041:22438" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="22123:22204" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="22338:22420" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="22469:22561" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="22592:22637" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="22800:23177" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="22933:23141" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="23064:23127" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zian.NpoiCore.Mapper/Attributes/ColumnAttribute.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+          <folding>
+            <marker date="1526809158612" expanded="false" signature="6:198" ph="..." />
+            <marker date="1526809158612" expanded="true" signature="242:8227" ph="{...}" />
+            <marker date="1526809158612" expanded="true" signature="248:358" ph="/// Specifies attributes for a property that is going to map to a column. ... " />
+            <marker date="1526809158612" expanded="true" signature="533:8225" ph="{...}" />
+            <marker date="1526809158612" expanded="true" signature="543:3302" ph="Properties" />
+            <marker date="1526809158612" expanded="true" signature="571:633" ph="/// Column index. ... " />
+            <marker date="1526809158612" expanded="true" signature="697:758" ph="/// Column name. ... " />
+            <marker date="1526809158612" expanded="true" signature="818:917" ph="/// Property name, this is only used for dynamic type. ... " />
+            <marker date="1526809158612" expanded="true" signature="1016:1097" ph="/// Mapped property for this column. ... " />
+            <marker date="1526809158612" expanded="true" signature="1135:1679" ph="{...}" />
+            <marker date="1526809158612" expanded="true" signature="1193:1669" ph="{...}" />
+            <marker date="1526809158612" expanded="true" signature="1266:1523" ph="{...}" />
+            <marker date="1526809158612" expanded="true" signature="1689:1816" ph="/// Get underlying type if property is nullable value type, otherwise return null. ... " />
+            <marker date="1526809158612" expanded="true" signature="1891:1989" ph="/// Get converter if property is nullable value type. ... " />
+            <marker date="1526809158612" expanded="true" signature="2078:2238" ph="/// Indicate whether to use the last non-blank value. ... " />
+            <marker date="1526809158612" expanded="true" signature="2306:2395" ph="/// Indicate whether to ignore the property. ... " />
+            <marker date="1526809158612" expanded="true" signature="2450:2668" ph="/// Gets or sets the custom format, see https://support.office.com/en-us/article/Create-or-delete-a-custom-number ... " />
+            <marker date="1526809158612" expanded="true" signature="2727:2837" ph="/// Indicates whether or not to ignore all errors for the column. ... " />
+            <marker date="1526809158612" expanded="true" signature="2895:3012" ph="/// Try take cell value for the given column when import data from file. ... " />
+            <marker date="1526809158612" expanded="true" signature="3093:3212" ph="/// Try set value to cell for the given column when export object to file. ... " />
+            <marker date="1526809158612" expanded="false" signature="3312:4056" ph="Constructors" />
+            <marker date="1526809158612" expanded="true" signature="3342:3456" ph="/// Initialize a new instance of &lt;see cref=&quot;ColumnAttribute&quot;/&gt; class. ... " />
+            <marker date="1526809158612" expanded="true" signature="3504:3683" ph="/// Initialize a new instance of &lt;see cref=&quot;ColumnAttribute&quot;/&gt; class. ... " />
+            <marker date="1526809158612" expanded="true" signature="3730:3768" ph="{...}" />
+            <marker date="1526809158612" expanded="true" signature="3777:3954" ph="/// Initialize a new instance of &lt;see cref=&quot;ColumnAttribute&quot;/&gt; class. ... " />
+            <marker date="1526809158612" expanded="true" signature="4000:4036" ph="{...}" />
+            <marker date="1526809158612" expanded="true" signature="4066:8219" ph="Public Methods" />
+            <marker date="1526809158612" expanded="true" signature="4098:4240" ph="/// Get a member wise clone of this object. ... " />
+            <marker date="1526809158612" expanded="true" signature="4281:4349" ph="{...}" />
+            <marker date="1526809158612" expanded="true" signature="4359:4600" ph="/// Get a member wise clone of this object with given index. ... " />
+            <marker date="1526809158612" expanded="true" signature="4650:4754" ph="{...}" />
+            <marker date="1526809158612" expanded="true" signature="4764:5278" ph="/// Merge properties from a source &lt;see cref=&quot;ColumnAttribute&quot;/&gt; object. ... " />
+            <marker date="1526809158612" expanded="true" signature="5357:6457" ph="{...}" />
+            <marker date="1526809158612" expanded="true" signature="5458:5637" ph="{...}" />
+            <marker date="1526809158612" expanded="true" signature="5522:5623" ph="{...}" />
+            <marker date="1526809158612" expanded="true" signature="6467:6900" ph="/// Merge properties to a attribute dictionary. ... " />
+            <marker date="1526809158612" expanded="true" signature="7007:8199" ph="{...}" />
+            <marker date="1526809158612" expanded="true" signature="7365:7552" ph="{...}" />
+            <marker date="1526809158612" expanded="true" signature="7587:7808" ph="{...}" />
+            <marker date="1526809158612" expanded="true" signature="7974:8189" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zian.NpoiCore.Mapper/Extensions/EnumerableExtensions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
+          <folding>
+            <marker date="1526809158647" expanded="false" signature="6:47" ph="..." />
+            <marker date="1526809158647" expanded="true" signature="90:832" ph="{...}" />
+            <marker date="1526809158647" expanded="true" signature="97:197" ph="/// Provides extensions for &lt;see cref=&quot;IEnumerable{T}&quot;/&gt; class. ... " />
+            <marker date="1526809158647" expanded="true" signature="242:830" ph="{...}" />
+            <marker date="1526809158647" expanded="true" signature="257:574" ph="/// Extension for &lt;see cref=&quot;IEnumerable{T}&quot;/&gt; object to handle each item. ... " />
+            <marker date="1526809158647" expanded="true" signature="660:824" ph="{...}" />
+            <marker date="1526809158647" expanded="true" signature="756:814" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zian.NpoiCore.Mapper/Attributes/IgnoreAttribute.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+          <folding>
+            <marker date="1526809158616" expanded="true" signature="56:261" ph="{...}" />
+            <marker date="1526809158616" expanded="true" signature="63:147" ph="/// Specifies to ignore a property for mapping. ... " />
+            <marker date="1526809158616" expanded="true" signature="247:259" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zian.NpoiCore.Mapper/Mapper.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="768">
+          <caret line="185" column="60" selection-start-line="185" selection-start-column="60" selection-end-line="185" selection-end-column="60" />
+          <folding>
+            <marker date="1526809187815" expanded="false" signature="6:367" ph="..." />
+            <marker date="1526809187815" expanded="true" signature="399:42915" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="406:529" ph="/// Map object properties with Excel columns for importing from and exporting to file. ... " />
+            <marker date="1526809187815" expanded="true" signature="553:42913" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="568:917" ph="Fields" />
+            <marker date="1526809187815" expanded="true" signature="927:3803" ph="Properties" />
+            <marker date="1526809187815" expanded="true" signature="1559:1689" ph="/// Cache the tracked &lt;see cref=&quot;ColumnInfo&quot;/&gt; objects by sheet name and target type. ... " />
+            <marker date="1526809187815" expanded="true" signature="1862:1982" ph="/// Sheet name map to tracked objects in dictionary with row number as key. ... " />
+            <marker date="1526809187815" expanded="true" signature="2121:2189" ph="/// The Excel workbook. ... " />
+            <marker date="1526809187815" expanded="true" signature="2223:2567" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="2296:2557" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="2350:2508" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="2577:2698" ph="/// When map column, chars in this array will be removed from column header. ... " />
+            <marker date="1526809187815" expanded="true" signature="2761:2889" ph="/// When map column, column name will be truncated from any of chars in this array. ... " />
+            <marker date="1526809187815" expanded="true" signature="2952:3341" ph="/// Whether to track objects read from the Excel file. Default is true. ... " />
+            <marker date="1526809187815" expanded="true" signature="3406:3519" ph="/// Whether to take the first row as column header. Default is true. ... " />
+            <marker date="1526809187815" expanded="true" signature="3581:3705" ph="/// Set a zero-based row index for header. It will be auto-detected if not set. ... " />
+            <marker date="1526809187815" expanded="false" signature="3813:5225" ph="Constructors" />
+            <marker date="1526809187815" expanded="true" signature="3843:3948" ph="/// Initialize a new instance of &lt;see cref=&quot;Mapper&quot;/&gt; class. ... " />
+            <marker date="1526809187815" expanded="true" signature="3972:3992" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="4002:4216" ph="/// Initialize a new instance of &lt;see cref=&quot;Mapper&quot;/&gt; class with stream to read workbook. ... " />
+            <marker date="1526809187815" expanded="true" signature="4253:4485" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="4388:4475" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="4495:4687" ph="/// Initialize a new instance of &lt;see cref=&quot;Mapper&quot;/&gt; class with a workbook. ... " />
+            <marker date="1526809187815" expanded="true" signature="4729:4884" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="4894:5098" ph="/// Initialize a new instance of &lt;see cref=&quot;Mapper&quot;/&gt; class with file path to read workbook. ... " />
+            <marker date="1526809187815" expanded="true" signature="5185:5205" ph="{...}" />
+            <marker date="1526809187815" expanded="false" signature="5235:22554" ph="Public Methods" />
+            <marker date="1526809187815" expanded="true" signature="5267:5753" ph="/// Use this to include and map columns for custom complex resolution. ... " />
+            <marker date="1526809187815" expanded="true" signature="5912:6086" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="6096:6327" ph="/// Map by a &lt;see cref=&quot;ColumnAttribute&quot;/&gt; object. ... " />
+            <marker date="1526809187815" expanded="true" signature="6380:7444" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="6522:6597" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="6650:7234" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="6739:6859" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="6880:7220" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="7017:7126" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="7251:7408" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="7454:7829" ph="/// Specify to use last non-blank value from above cell for a property. ... " />
+            <marker date="1526809187815" expanded="true" signature="7921:8186" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="8196:8521" ph="/// Specify to ignore a property. Ignored property will not be mapped for import and export. ... " />
+            <marker date="1526809187815" expanded="true" signature="8599:8851" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="8861:9885" ph="/* Specify the built-in format. ... */" />
+            <marker date="1526809187815" expanded="true" signature="9895:10362" ph="/// Specify the custom format. ... " />
+            <marker date="1526809187815" expanded="true" signature="10461:10726" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="10736:10967" ph="/// Sets an action to configure header cells for export. ... " />
+            <marker date="1526809187815" expanded="true" signature="11027:11114" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="11124:11663" ph="/// Get objects of target type by converting rows in the sheet with specified index (zero based). ... " />
+            <marker date="1526809187815" expanded="true" signature="11803:11945" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="11955:12464" ph="/// Get objects of target type by converting rows in the sheet with specified name. ... " />
+            <marker date="1526809187815" expanded="true" signature="12602:12741" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="12751:13132" ph="/// Put objects in the sheet with specified name. ... " />
+            <marker date="1526809187815" expanded="true" signature="13224:13442" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="13452:13862" ph="/// Put objects in the sheet with specified zero-based index. ... " />
+            <marker date="1526809187815" expanded="true" signature="13956:14206" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="14216:14377" ph="/// Saves the current workbook to specified file. ... " />
+            <marker date="1526809187815" expanded="true" signature="14415:14594" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="14604:14774" ph="/// Saves the current workbook to specified stream. ... " />
+            <marker date="1526809187815" expanded="true" signature="14814:14871" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="14881:15490" ph="/// Saves the specified objects to the specified Excel file. ... " />
+            <marker date="1526809187815" expanded="true" signature="15614:15854" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="15864:16475" ph="/// Saves the specified objects to the specified Excel file. ... " />
+            <marker date="1526809187815" expanded="true" signature="16601:16842" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="16852:17456" ph="/// Saves the specified objects to the specified stream. ... " />
+            <marker date="1526809187815" expanded="true" signature="17582:17864" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="17874:18480" ph="/// Saves the specified objects to the specified stream. ... " />
+            <marker date="1526809187815" expanded="true" signature="18608:18922" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="18932:19472" ph="/// Saves tracked objects to the specified Excel file. ... " />
+            <marker date="1526809187815" expanded="true" signature="19572:19806" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="19816:20358" ph="/// Saves tracked objects to the specified Excel file. ... " />
+            <marker date="1526809187815" expanded="true" signature="20460:20695" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="20705:21233" ph="/// Saves tracked objects to the specified stream. ... " />
+            <marker date="1526809187815" expanded="true" signature="21335:21612" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="21622:22159" ph="/// Saves tracked objects to the specified stream. ... " />
+            <marker date="1526809187815" expanded="true" signature="22263:22534" ph="{...}" />
+            <marker date="1526809187815" expanded="false" signature="22564:42907" ph="Private Methods" />
+            <marker date="1526809187815" expanded="false" signature="22597:36351" ph="Import" />
+            <marker date="1526809187815" expanded="true" signature="22742:24642" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="22817:22874" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="23086:23258" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="23902:24632" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="24373:24491" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="24693:26449" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="24913:26373" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="25152:25271" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="25292:26359" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="25541:25619" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="25748:25966" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="25991:26139" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="26521:28562" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="26544:26678" ph="/* Column mapping priority: ... */" />
+            <marker date="1526809187815" expanded="true" signature="26974:28285" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="27248:27526" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="27374:27508" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="27597:28005" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="27799:27987" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="28636:29778" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="28801:29742" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="29389:29728" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="29428:29587" ph="/* Use a clone so no pollution to original attribute, ... */" />
+            <marker date="1526809187815" expanded="true" signature="29856:31083" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="30014:31047" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="30694:31033" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="30733:30892" ph="/* Use a clone so no pollution to original attribute, ... */" />
+            <marker date="1526809187815" expanded="true" signature="31166:32550" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="31335:31889" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="31520:31875" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="31739:31857" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="31918:32154" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="32288:32433" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="32659:32924" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="33041:35477" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="33191:33476" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="33521:35366" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="33649:35227" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="33935:34093" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="34221:34483" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="34314:34461" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="34534:35209" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="34753:34885" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="34914:35062" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="35263:35352" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="35537:36171" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="35664:35751" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="35782:36134" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="36227:36331" ph="{...}" />
+            <marker date="1526809187815" expanded="false" signature="36361:42887" ph="Export" />
+            <marker date="1526809187815" expanded="true" signature="36458:38685" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="37281:38199" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="37392:37523" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="37629:38156" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="38005:38138" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="38306:38467" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="38583:38675" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="38760:39036" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="39135:39235" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="39325:41526" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="39487:39841" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="39549:39798" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="40328:40756" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="40565:40667" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="40900:41491" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="41198:41301" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="41322:41452" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="41607:41966" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="41830:41917" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="42086:42860" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="42151:42228" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="42268:42348" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="42398:42486" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="42522:42598" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="42615:42696" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="42741:42850" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zian.NpoiCore.Mapper/AnonymousTypeFactory.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+          <folding>
+            <marker date="1526809158591" expanded="false" signature="6:176" ph="..." />
+            <marker date="1526809158591" expanded="true" signature="215:304" ph="/// Methods for creating anonymous type dynamically. ... " />
+            <marker date="1526809158591" expanded="true" signature="349:29335" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="519:830" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="840:1626" ph="/* This version of the static constructor can be used temporarily to save the dynamic DLL to get a copy of the ge ... */" />
+            <marker date="1526809158591" expanded="true" signature="1636:1891" ph="/// Creates an object from an anonymous type with the specified name/value pairs. ... " />
+            <marker date="1526809158591" expanded="true" signature="1978:2278" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="2288:2850" ph="/// Creates an object for the specified name/value pairs with the specified anonymous type. ... " />
+            <marker date="1526809158591" expanded="true" signature="2957:3256" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="3266:3514" ph="/// Creates an anonymous type for the specified property name/type pairs. ... " />
+            <marker date="1526809158591" expanded="true" signature="3603:3697" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="3707:4079" ph="/// Creates an anonymous type that may be mutable for the specified property name/type pairs. ... " />
+            <marker date="1526809158591" expanded="true" signature="4184:4282" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="4292:4806" ph="/// Creates an anonymous type that may be mutable for the specified property name/type pairs with the (optional)  ... " />
+            <marker date="1526809158591" expanded="true" signature="4924:5512" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="5522:5785" ph="/// Creates an anonymous generic type definition for the specified property names. ... " />
+            <marker date="1526809158591" expanded="true" signature="5875:5990" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="6000:6371" ph="/// Creates an anonymous generic type definition that may be mutable with the specified property names. ... " />
+            <marker date="1526809158591" expanded="true" signature="6477:6596" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="6606:7118" ph="/// Creates an anonymous generic type definition that may be mutable for the specified property names and (option ... " />
+            <marker date="1526809158591" expanded="true" signature="7237:7467" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="7605:9135" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="7653:7870" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="7967:8163" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="8372:8532" ph="/* We need to check for the type and define/create it as one atomic operation, ... */" />
+            <marker date="1526809158591" expanded="true" signature="8755:9068" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="9276:12108" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="9299:10480" ph="/* A real anonymous type is named something like &quot;&lt;&gt;f__AnonymousType0`2&quot; (for the first anonymous type generated  ... */" />
+            <marker date="1526809158591" expanded="true" signature="10809:10895" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="10928:11110" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="11124:11569" ph="/* If we add support for interfaces, then we'll need them included in the key string too... ... */" />
+            <marker date="1526809158591" expanded="true" signature="11712:11939" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="12281:16657" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="13310:15818" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="13512:13630" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="14817:15804" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="16013:16213" ph="/* We don't need this for now, we only need a parameterless constructor. ... */" />
+            <marker date="1526809158591" expanded="true" signature="16776:17724" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="17493:17659" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="18049:20180" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="18592:18727" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="19068:19907" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="19261:19825" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="19949:20115" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="20287:23717" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="21510:23189" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="22581:22673" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="22694:22784" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="23829:26683" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="24571:24748" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="24611:24734" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="24884:26410" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="26830:29329" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="27855:28811" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="28030:28140" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="28161:28234" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zian.NpoiCore.Mapper/Attributes/UseLastNonBlankValueAttribute.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="56" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="56" />
+          <folding>
+            <marker date="1526809158633" expanded="true" signature="56:374" ph="{...}" />
+            <marker date="1526809158633" expanded="true" signature="63:246" ph="/// Specifies to use the last non-blank value when reading from cells for this property. ... " />
+            <marker date="1526809158633" expanded="true" signature="360:372" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zian.NpoiCore.Mapper/Zian.NpoiCore.Mapper.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zian.NpoiCore.Mapper/MapHelper.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
+          <folding>
+            <marker date="1526809187810" expanded="false" signature="6:291" ph="..." />
+            <marker date="1526809187810" expanded="true" signature="323:23185" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="330:444" ph="/// Provide static supportive functionalities for &lt;see cref=&quot;Mapper&quot;/&gt; class. ... " />
+            <marker date="1526809187810" expanded="true" signature="471:23183" ph="{...}" />
+            <marker date="1526809187810" expanded="false" signature="486:2600" ph="Fields" />
+            <marker date="1526809187810" expanded="true" signature="510:634" ph="/// Stores cached built-in styles to avoid create new ICellStyle for each cell. ... " />
+            <marker date="1526809187810" expanded="true" signature="753:886" ph="/// Stores cached custom styles to avoid create new ICellStyle for each customized cell. ... " />
+            <marker date="1526809187810" expanded="true" signature="1006:1134" ph="/* Column chars that will be used for Excel columns. ... */" />
+            <marker date="1526809187810" expanded="true" signature="1920:2010" ph="/// Caches for type of string during parsing. ... " />
+            <marker date="1526809187810" expanded="true" signature="2085:2177" ph="/// Caches for type of DateTime during parsing. ... " />
+            <marker date="1526809187810" expanded="true" signature="2256:2331" ph="/// Caches for type of object. ... " />
+            <marker date="1526809187810" expanded="true" signature="2406:2525" ph="/// The maximum row number during the detection for column type and style. ... " />
+            <marker date="1526809187810" expanded="true" signature="2610:19263" ph="Public Methods" />
+            <marker date="1526809187810" expanded="true" signature="2642:2862" ph="/// Loads attributes to a dictionary. ... " />
+            <marker date="1526809187810" expanded="true" signature="2969:3913" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="3082:3903" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="3525:3691" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="3923:4276" ph="/// Loads dynamic attributes to a dictionary. ... " />
+            <marker date="1526809187810" expanded="true" signature="4452:4779" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="4514:4769" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="4621:4755" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="4789:4896" ph="/// Clear cached data for cell styles and tracked column info. ... " />
+            <marker date="1526809187810" expanded="true" signature="4929:5020" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="5030:5466" ph="/// Load cell data format by a specified row. ... " />
+            <marker date="1526809187810" expanded="true" signature="5614:6905" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="5749:6895" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="5920:6344" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="6013:6129" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="6204:6326" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="6528:6881" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="6915:7292" ph="/// Get the cell style. ... " />
+            <marker date="1526809187810" expanded="true" signature="7385:8521" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="7544:7931" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="7619:7712" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="7755:7917" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="7970:8484" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="8084:8153" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="8210:8298" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="8319:8470" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="8531:8866" ph="/// Creates a &lt;see cref=&quot;ICellStyle&quot;/&gt; object by the given &lt;see cref=&quot;IWorkbook&quot;/&gt;. ... " />
+            <marker date="1526809187810" expanded="true" signature="8950:9358" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="9368:9704" ph="/// Creates a &lt;see cref=&quot;ICellStyle&quot;/&gt; object by the given &lt;see cref=&quot;IWorkbook&quot;/&gt;. ... " />
+            <marker date="1526809187810" expanded="true" signature="9787:10053" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="10063:10498" ph="/// Gets a &lt;see cref=&quot;ICellStyle&quot;/&gt; object based on value's type by looking up the default format dictionary. ... " />
+            <marker date="1526809187810" expanded="true" signature="10615:11324" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="10951:11008" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="11061:11195" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="11212:11287" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="11334:11538" ph="/// Get underline cell type if the cell is in formula. ... " />
+            <marker date="1526809187810" expanded="true" signature="11593:11714" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="11724:12085" ph="/// Try get cell value. ... " />
+            <marker date="1526809187810" expanded="true" signature="12175:13342" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="12327:13303" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="12611:12707" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="12747:12846" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="13352:13705" ph="/// Get mapped &lt;c&gt;PropertyInfo&lt;/c&gt; by property selector expression. ... " />
+            <marker date="1526809187810" expanded="true" signature="13817:14487" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="14265:14400" ph="/* body.Member will return the MemberInfo of base class, so we have to get it from T... ... */" />
+            <marker date="1526809187810" expanded="true" signature="14497:14919" ph="/// Get refined name by removing specified chars and truncating by specified chars. ... " />
+            <marker date="1526809187810" expanded="true" signature="15022:15538" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="15548:16094" ph="/// Get a valid variable name by removing specified chars and truncating by specified chars. ... " />
+            <marker date="1526809187810" expanded="true" signature="16218:16481" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="16355:16442" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="16491:16726" ph="/// Get column name in Excel, like A, B, AC. ... " />
+            <marker date="1526809187810" expanded="true" signature="16791:17289" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="17299:17724" ph="/// Determines the data type for the specified column according the first non-blank data cell. ... " />
+            <marker date="1526809187810" expanded="true" signature="17815:19243" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="18237:19207" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="18390:19165" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="18541:19147" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="19389:20235" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="19412:19478" ph="/* For now, only take care DateTime. ... */" />
+            <marker date="1526809187810" expanded="true" signature="19537:19672" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="19717:20225" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="19935:20211" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="20077:20193" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="20396:22673" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="20844:22452" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="20904:21015" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="21064:21445" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="21303:21427" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="21571:21715" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="21755:21896" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="22041:22438" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="22123:22204" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="22338:22420" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="22469:22561" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="22592:22637" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="22800:23177" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="22933:23141" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="23064:23127" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zian.NpoiCore.Mapper/Attributes/ColumnAttribute.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="119" column="8" lean-forward="true" selection-start-line="119" selection-start-column="8" selection-end-line="119" selection-end-column="8" />
+          <folding>
+            <marker date="1526809158612" expanded="false" signature="6:198" ph="..." />
+            <marker date="1526809158612" expanded="true" signature="242:8227" ph="{...}" />
+            <marker date="1526809158612" expanded="true" signature="248:358" ph="/// Specifies attributes for a property that is going to map to a column. ... " />
+            <marker date="1526809158612" expanded="true" signature="533:8225" ph="{...}" />
+            <marker date="1526809158612" expanded="true" signature="543:3302" ph="Properties" />
+            <marker date="1526809158612" expanded="true" signature="571:633" ph="/// Column index. ... " />
+            <marker date="1526809158612" expanded="true" signature="697:758" ph="/// Column name. ... " />
+            <marker date="1526809158612" expanded="true" signature="818:917" ph="/// Property name, this is only used for dynamic type. ... " />
+            <marker date="1526809158612" expanded="true" signature="1016:1097" ph="/// Mapped property for this column. ... " />
+            <marker date="1526809158612" expanded="true" signature="1135:1679" ph="{...}" />
+            <marker date="1526809158612" expanded="true" signature="1193:1669" ph="{...}" />
+            <marker date="1526809158612" expanded="true" signature="1266:1523" ph="{...}" />
+            <marker date="1526809158612" expanded="true" signature="1689:1816" ph="/// Get underlying type if property is nullable value type, otherwise return null. ... " />
+            <marker date="1526809158612" expanded="true" signature="1891:1989" ph="/// Get converter if property is nullable value type. ... " />
+            <marker date="1526809158612" expanded="true" signature="2078:2238" ph="/// Indicate whether to use the last non-blank value. ... " />
+            <marker date="1526809158612" expanded="true" signature="2306:2395" ph="/// Indicate whether to ignore the property. ... " />
+            <marker date="1526809158612" expanded="true" signature="2450:2668" ph="/// Gets or sets the custom format, see https://support.office.com/en-us/article/Create-or-delete-a-custom-number ... " />
+            <marker date="1526809158612" expanded="true" signature="2727:2837" ph="/// Indicates whether or not to ignore all errors for the column. ... " />
+            <marker date="1526809158612" expanded="true" signature="2895:3012" ph="/// Try take cell value for the given column when import data from file. ... " />
+            <marker date="1526809158612" expanded="true" signature="3093:3212" ph="/// Try set value to cell for the given column when export object to file. ... " />
+            <marker date="1526809158612" expanded="false" signature="3312:4056" ph="Constructors" />
+            <marker date="1526809158612" expanded="true" signature="3342:3456" ph="/// Initialize a new instance of &lt;see cref=&quot;ColumnAttribute&quot;/&gt; class. ... " />
+            <marker date="1526809158612" expanded="true" signature="3504:3683" ph="/// Initialize a new instance of &lt;see cref=&quot;ColumnAttribute&quot;/&gt; class. ... " />
+            <marker date="1526809158612" expanded="true" signature="3730:3768" ph="{...}" />
+            <marker date="1526809158612" expanded="true" signature="3777:3954" ph="/// Initialize a new instance of &lt;see cref=&quot;ColumnAttribute&quot;/&gt; class. ... " />
+            <marker date="1526809158612" expanded="true" signature="4000:4036" ph="{...}" />
+            <marker date="1526809158612" expanded="true" signature="4066:8219" ph="Public Methods" />
+            <marker date="1526809158612" expanded="true" signature="4098:4240" ph="/// Get a member wise clone of this object. ... " />
+            <marker date="1526809158612" expanded="true" signature="4281:4349" ph="{...}" />
+            <marker date="1526809158612" expanded="true" signature="4359:4600" ph="/// Get a member wise clone of this object with given index. ... " />
+            <marker date="1526809158612" expanded="true" signature="4650:4754" ph="{...}" />
+            <marker date="1526809158612" expanded="true" signature="4764:5278" ph="/// Merge properties from a source &lt;see cref=&quot;ColumnAttribute&quot;/&gt; object. ... " />
+            <marker date="1526809158612" expanded="true" signature="5357:6457" ph="{...}" />
+            <marker date="1526809158612" expanded="true" signature="5458:5637" ph="{...}" />
+            <marker date="1526809158612" expanded="true" signature="5522:5623" ph="{...}" />
+            <marker date="1526809158612" expanded="true" signature="6467:6900" ph="/// Merge properties to a attribute dictionary. ... " />
+            <marker date="1526809158612" expanded="true" signature="7007:8199" ph="{...}" />
+            <marker date="1526809158612" expanded="true" signature="7365:7552" ph="{...}" />
+            <marker date="1526809158612" expanded="true" signature="7587:7808" ph="{...}" />
+            <marker date="1526809158612" expanded="true" signature="7974:8189" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zian.NpoiCore.Mapper/Attributes/IgnoreAttribute.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+          <folding>
+            <marker date="1526809158616" expanded="true" signature="56:261" ph="{...}" />
+            <marker date="1526809158616" expanded="true" signature="63:147" ph="/// Specifies to ignore a property for mapping. ... " />
+            <marker date="1526809158616" expanded="true" signature="247:259" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zian.NpoiCore.Mapper/AnonymousTypeFactory.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+          <folding>
+            <marker date="1526809158591" expanded="false" signature="6:176" ph="..." />
+            <marker date="1526809158591" expanded="true" signature="215:304" ph="/// Methods for creating anonymous type dynamically. ... " />
+            <marker date="1526809158591" expanded="true" signature="349:29335" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="519:830" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="840:1626" ph="/* This version of the static constructor can be used temporarily to save the dynamic DLL to get a copy of the ge ... */" />
+            <marker date="1526809158591" expanded="true" signature="1636:1891" ph="/// Creates an object from an anonymous type with the specified name/value pairs. ... " />
+            <marker date="1526809158591" expanded="true" signature="1978:2278" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="2288:2850" ph="/// Creates an object for the specified name/value pairs with the specified anonymous type. ... " />
+            <marker date="1526809158591" expanded="true" signature="2957:3256" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="3266:3514" ph="/// Creates an anonymous type for the specified property name/type pairs. ... " />
+            <marker date="1526809158591" expanded="true" signature="3603:3697" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="3707:4079" ph="/// Creates an anonymous type that may be mutable for the specified property name/type pairs. ... " />
+            <marker date="1526809158591" expanded="true" signature="4184:4282" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="4292:4806" ph="/// Creates an anonymous type that may be mutable for the specified property name/type pairs with the (optional)  ... " />
+            <marker date="1526809158591" expanded="true" signature="4924:5512" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="5522:5785" ph="/// Creates an anonymous generic type definition for the specified property names. ... " />
+            <marker date="1526809158591" expanded="true" signature="5875:5990" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="6000:6371" ph="/// Creates an anonymous generic type definition that may be mutable with the specified property names. ... " />
+            <marker date="1526809158591" expanded="true" signature="6477:6596" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="6606:7118" ph="/// Creates an anonymous generic type definition that may be mutable for the specified property names and (option ... " />
+            <marker date="1526809158591" expanded="true" signature="7237:7467" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="7605:9135" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="7653:7870" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="7967:8163" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="8372:8532" ph="/* We need to check for the type and define/create it as one atomic operation, ... */" />
+            <marker date="1526809158591" expanded="true" signature="8755:9068" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="9276:12108" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="9299:10480" ph="/* A real anonymous type is named something like &quot;&lt;&gt;f__AnonymousType0`2&quot; (for the first anonymous type generated  ... */" />
+            <marker date="1526809158591" expanded="true" signature="10809:10895" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="10928:11110" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="11124:11569" ph="/* If we add support for interfaces, then we'll need them included in the key string too... ... */" />
+            <marker date="1526809158591" expanded="true" signature="11712:11939" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="12281:16657" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="13310:15818" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="13512:13630" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="14817:15804" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="16013:16213" ph="/* We don't need this for now, we only need a parameterless constructor. ... */" />
+            <marker date="1526809158591" expanded="true" signature="16776:17724" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="17493:17659" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="18049:20180" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="18592:18727" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="19068:19907" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="19261:19825" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="19949:20115" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="20287:23717" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="21510:23189" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="22581:22673" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="22694:22784" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="23829:26683" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="24571:24748" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="24611:24734" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="24884:26410" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="26830:29329" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="27855:28811" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="28030:28140" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="28161:28234" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zian.NpoiCore.Mapper/Mapper.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2224">
+          <caret line="175" column="41" selection-start-line="175" selection-start-column="26" selection-end-line="175" selection-end-column="41" />
+          <folding>
+            <marker date="1526809187815" expanded="false" signature="6:367" ph="..." />
+            <marker date="1526809187815" expanded="true" signature="399:42915" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="406:529" ph="/// Map object properties with Excel columns for importing from and exporting to file. ... " />
+            <marker date="1526809187815" expanded="true" signature="553:42913" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="568:917" ph="Fields" />
+            <marker date="1526809187815" expanded="true" signature="927:3803" ph="Properties" />
+            <marker date="1526809187815" expanded="true" signature="1559:1689" ph="/// Cache the tracked &lt;see cref=&quot;ColumnInfo&quot;/&gt; objects by sheet name and target type. ... " />
+            <marker date="1526809187815" expanded="true" signature="1862:1982" ph="/// Sheet name map to tracked objects in dictionary with row number as key. ... " />
+            <marker date="1526809187815" expanded="true" signature="2121:2189" ph="/// The Excel workbook. ... " />
+            <marker date="1526809187815" expanded="true" signature="2223:2567" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="2296:2557" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="2350:2508" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="2577:2698" ph="/// When map column, chars in this array will be removed from column header. ... " />
+            <marker date="1526809187815" expanded="true" signature="2761:2889" ph="/// When map column, column name will be truncated from any of chars in this array. ... " />
+            <marker date="1526809187815" expanded="true" signature="2952:3341" ph="/// Whether to track objects read from the Excel file. Default is true. ... " />
+            <marker date="1526809187815" expanded="true" signature="3406:3519" ph="/// Whether to take the first row as column header. Default is true. ... " />
+            <marker date="1526809187815" expanded="true" signature="3581:3705" ph="/// Set a zero-based row index for header. It will be auto-detected if not set. ... " />
+            <marker date="1526809187815" expanded="false" signature="3813:5225" ph="Constructors" />
+            <marker date="1526809187815" expanded="true" signature="3843:3948" ph="/// Initialize a new instance of &lt;see cref=&quot;Mapper&quot;/&gt; class. ... " />
+            <marker date="1526809187815" expanded="true" signature="3972:3992" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="4002:4216" ph="/// Initialize a new instance of &lt;see cref=&quot;Mapper&quot;/&gt; class with stream to read workbook. ... " />
+            <marker date="1526809187815" expanded="true" signature="4253:4485" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="4388:4475" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="4495:4687" ph="/// Initialize a new instance of &lt;see cref=&quot;Mapper&quot;/&gt; class with a workbook. ... " />
+            <marker date="1526809187815" expanded="true" signature="4729:4884" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="4894:5098" ph="/// Initialize a new instance of &lt;see cref=&quot;Mapper&quot;/&gt; class with file path to read workbook. ... " />
+            <marker date="1526809187815" expanded="true" signature="5185:5205" ph="{...}" />
+            <marker date="1526809187815" expanded="false" signature="5235:22554" ph="Public Methods" />
+            <marker date="1526809187815" expanded="true" signature="5267:5753" ph="/// Use this to include and map columns for custom complex resolution. ... " />
+            <marker date="1526809187815" expanded="true" signature="5912:6086" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="6096:6327" ph="/// Map by a &lt;see cref=&quot;ColumnAttribute&quot;/&gt; object. ... " />
+            <marker date="1526809187815" expanded="true" signature="6380:7444" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="6522:6597" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="6650:7234" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="6739:6859" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="6880:7220" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="7017:7126" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="7251:7408" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="7454:7829" ph="/// Specify to use last non-blank value from above cell for a property. ... " />
+            <marker date="1526809187815" expanded="true" signature="7921:8186" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="8196:8521" ph="/// Specify to ignore a property. Ignored property will not be mapped for import and export. ... " />
+            <marker date="1526809187815" expanded="true" signature="8599:8851" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="8861:9885" ph="/* Specify the built-in format. ... */" />
+            <marker date="1526809187815" expanded="true" signature="9895:10362" ph="/// Specify the custom format. ... " />
+            <marker date="1526809187815" expanded="true" signature="10461:10726" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="10736:10967" ph="/// Sets an action to configure header cells for export. ... " />
+            <marker date="1526809187815" expanded="true" signature="11027:11114" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="11124:11663" ph="/// Get objects of target type by converting rows in the sheet with specified index (zero based). ... " />
+            <marker date="1526809187815" expanded="true" signature="11803:11945" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="11955:12464" ph="/// Get objects of target type by converting rows in the sheet with specified name. ... " />
+            <marker date="1526809187815" expanded="true" signature="12602:12741" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="12751:13132" ph="/// Put objects in the sheet with specified name. ... " />
+            <marker date="1526809187815" expanded="true" signature="13224:13442" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="13452:13862" ph="/// Put objects in the sheet with specified zero-based index. ... " />
+            <marker date="1526809187815" expanded="true" signature="13956:14206" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="14216:14377" ph="/// Saves the current workbook to specified file. ... " />
+            <marker date="1526809187815" expanded="true" signature="14415:14594" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="14604:14774" ph="/// Saves the current workbook to specified stream. ... " />
+            <marker date="1526809187815" expanded="true" signature="14814:14871" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="14881:15490" ph="/// Saves the specified objects to the specified Excel file. ... " />
+            <marker date="1526809187815" expanded="true" signature="15614:15854" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="15864:16475" ph="/// Saves the specified objects to the specified Excel file. ... " />
+            <marker date="1526809187815" expanded="true" signature="16601:16842" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="16852:17456" ph="/// Saves the specified objects to the specified stream. ... " />
+            <marker date="1526809187815" expanded="true" signature="17582:17864" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="17874:18480" ph="/// Saves the specified objects to the specified stream. ... " />
+            <marker date="1526809187815" expanded="true" signature="18608:18922" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="18932:19472" ph="/// Saves tracked objects to the specified Excel file. ... " />
+            <marker date="1526809187815" expanded="true" signature="19572:19806" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="19816:20358" ph="/// Saves tracked objects to the specified Excel file. ... " />
+            <marker date="1526809187815" expanded="true" signature="20460:20695" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="20705:21233" ph="/// Saves tracked objects to the specified stream. ... " />
+            <marker date="1526809187815" expanded="true" signature="21335:21612" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="21622:22159" ph="/// Saves tracked objects to the specified stream. ... " />
+            <marker date="1526809187815" expanded="true" signature="22263:22534" ph="{...}" />
+            <marker date="1526809187815" expanded="false" signature="22564:42907" ph="Private Methods" />
+            <marker date="1526809187815" expanded="false" signature="22597:36351" ph="Import" />
+            <marker date="1526809187815" expanded="true" signature="22742:24642" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="22817:22874" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="23086:23258" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="23902:24632" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="24373:24491" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="24693:26449" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="24913:26373" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="25152:25271" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="25292:26359" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="25541:25619" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="25748:25966" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="25991:26139" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="26521:28562" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="26544:26678" ph="/* Column mapping priority: ... */" />
+            <marker date="1526809187815" expanded="true" signature="26974:28285" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="27248:27526" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="27374:27508" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="27597:28005" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="27799:27987" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="28636:29778" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="28801:29742" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="29389:29728" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="29428:29587" ph="/* Use a clone so no pollution to original attribute, ... */" />
+            <marker date="1526809187815" expanded="true" signature="29856:31083" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="30014:31047" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="30694:31033" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="30733:30892" ph="/* Use a clone so no pollution to original attribute, ... */" />
+            <marker date="1526809187815" expanded="true" signature="31166:32550" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="31335:31889" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="31520:31875" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="31739:31857" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="31918:32154" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="32288:32433" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="32659:32924" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="33041:35477" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="33191:33476" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="33521:35366" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="33649:35227" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="33935:34093" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="34221:34483" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="34314:34461" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="34534:35209" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="34753:34885" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="34914:35062" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="35263:35352" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="35537:36171" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="35664:35751" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="35782:36134" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="36227:36331" ph="{...}" />
+            <marker date="1526809187815" expanded="false" signature="36361:42887" ph="Export" />
+            <marker date="1526809187815" expanded="true" signature="36458:38685" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="37281:38199" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="37392:37523" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="37629:38156" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="38005:38138" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="38306:38467" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="38583:38675" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="38760:39036" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="39135:39235" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="39325:41526" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="39487:39841" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="39549:39798" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="40328:40756" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="40565:40667" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="40900:41491" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="41198:41301" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="41322:41452" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="41607:41966" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="41830:41917" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="42086:42860" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="42151:42228" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="42268:42348" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="42398:42486" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="42522:42598" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="42615:42696" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="42741:42850" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zian.NpoiCore.Mapper/IRowInfo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zian.NpoiCore.Mapper/IColumnInfo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zian.NpoiCore.Mapper/Extensions/MapExtensions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zian.NpoiCore.Mapper/RowInfo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zian.NpoiCore.Mapper/Extensions/TypeExtensions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zian.NpoiCore.Mapper/Extensions/FormatExtensions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zian.NpoiCore.Mapper/AnonymousTypeFactory.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+          <folding>
+            <marker date="1526809158591" expanded="false" signature="6:176" ph="..." />
+            <marker date="1526809158591" expanded="true" signature="215:304" ph="/// Methods for creating anonymous type dynamically. ... " />
+            <marker date="1526809158591" expanded="true" signature="349:29335" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="519:830" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="840:1626" ph="/* This version of the static constructor can be used temporarily to save the dynamic DLL to get a copy of the ge ... */" />
+            <marker date="1526809158591" expanded="true" signature="1636:1891" ph="/// Creates an object from an anonymous type with the specified name/value pairs. ... " />
+            <marker date="1526809158591" expanded="true" signature="1978:2278" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="2288:2850" ph="/// Creates an object for the specified name/value pairs with the specified anonymous type. ... " />
+            <marker date="1526809158591" expanded="true" signature="2957:3256" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="3266:3514" ph="/// Creates an anonymous type for the specified property name/type pairs. ... " />
+            <marker date="1526809158591" expanded="true" signature="3603:3697" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="3707:4079" ph="/// Creates an anonymous type that may be mutable for the specified property name/type pairs. ... " />
+            <marker date="1526809158591" expanded="true" signature="4184:4282" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="4292:4806" ph="/// Creates an anonymous type that may be mutable for the specified property name/type pairs with the (optional)  ... " />
+            <marker date="1526809158591" expanded="true" signature="4924:5512" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="5522:5785" ph="/// Creates an anonymous generic type definition for the specified property names. ... " />
+            <marker date="1526809158591" expanded="true" signature="5875:5990" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="6000:6371" ph="/// Creates an anonymous generic type definition that may be mutable with the specified property names. ... " />
+            <marker date="1526809158591" expanded="true" signature="6477:6596" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="6606:7118" ph="/// Creates an anonymous generic type definition that may be mutable for the specified property names and (option ... " />
+            <marker date="1526809158591" expanded="true" signature="7237:7467" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="7605:9135" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="7653:7870" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="7967:8163" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="8372:8532" ph="/* We need to check for the type and define/create it as one atomic operation, ... */" />
+            <marker date="1526809158591" expanded="true" signature="8755:9068" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="9276:12108" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="9299:10480" ph="/* A real anonymous type is named something like &quot;&lt;&gt;f__AnonymousType0`2&quot; (for the first anonymous type generated  ... */" />
+            <marker date="1526809158591" expanded="true" signature="10809:10895" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="10928:11110" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="11124:11569" ph="/* If we add support for interfaces, then we'll need them included in the key string too... ... */" />
+            <marker date="1526809158591" expanded="true" signature="11712:11939" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="12281:16657" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="13310:15818" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="13512:13630" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="14817:15804" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="16013:16213" ph="/* We don't need this for now, we only need a parameterless constructor. ... */" />
+            <marker date="1526809158591" expanded="true" signature="16776:17724" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="17493:17659" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="18049:20180" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="18592:18727" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="19068:19907" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="19261:19825" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="19949:20115" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="20287:23717" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="21510:23189" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="22581:22673" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="22694:22784" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="23829:26683" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="24571:24748" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="24611:24734" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="24884:26410" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="26830:29329" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="27855:28811" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="28030:28140" ph="{...}" />
+            <marker date="1526809158591" expanded="true" signature="28161:28234" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zian.NpoiCore.Mapper/Extensions/EnumerableExtensions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
+          <folding>
+            <marker date="1526809158647" expanded="false" signature="6:47" ph="..." />
+            <marker date="1526809158647" expanded="true" signature="90:832" ph="{...}" />
+            <marker date="1526809158647" expanded="true" signature="97:197" ph="/// Provides extensions for &lt;see cref=&quot;IEnumerable{T}&quot;/&gt; class. ... " />
+            <marker date="1526809158647" expanded="true" signature="242:830" ph="{...}" />
+            <marker date="1526809158647" expanded="true" signature="257:574" ph="/// Extension for &lt;see cref=&quot;IEnumerable{T}&quot;/&gt; object to handle each item. ... " />
+            <marker date="1526809158647" expanded="true" signature="660:824" ph="{...}" />
+            <marker date="1526809158647" expanded="true" signature="756:814" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zian.NpoiCore.Mapper/Attributes/IgnoreAttribute.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+          <folding>
+            <marker date="1526809158616" expanded="true" signature="56:261" ph="{...}" />
+            <marker date="1526809158616" expanded="true" signature="63:147" ph="/// Specifies to ignore a property for mapping. ... " />
+            <marker date="1526809158616" expanded="true" signature="247:259" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zian.NpoiCore.Mapper/Attributes/UseLastNonBlankValueAttribute.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="13" />
+          <folding>
+            <marker date="1526809158633" expanded="true" signature="56:374" ph="{...}" />
+            <marker date="1526809158633" expanded="true" signature="63:246" ph="/// Specifies to use the last non-blank value when reading from cells for this property. ... " />
+            <marker date="1526809158633" expanded="true" signature="360:372" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zian.NpoiCore.Mapper/Zian.NpoiCore.Mapper.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zian.NpoiCore.Mapper/Attributes/ColumnAttribute.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+          <folding>
+            <marker date="1526809158612" expanded="false" signature="6:198" ph="..." />
+            <marker date="1526809158612" expanded="true" signature="242:8227" ph="{...}" />
+            <marker date="1526809158612" expanded="true" signature="248:358" ph="/// Specifies attributes for a property that is going to map to a column. ... " />
+            <marker date="1526809158612" expanded="true" signature="533:8225" ph="{...}" />
+            <marker date="1526809158612" expanded="true" signature="543:3302" ph="Properties" />
+            <marker date="1526809158612" expanded="true" signature="571:633" ph="/// Column index. ... " />
+            <marker date="1526809158612" expanded="true" signature="697:758" ph="/// Column name. ... " />
+            <marker date="1526809158612" expanded="true" signature="818:917" ph="/// Property name, this is only used for dynamic type. ... " />
+            <marker date="1526809158612" expanded="true" signature="1016:1097" ph="/// Mapped property for this column. ... " />
+            <marker date="1526809158612" expanded="true" signature="1135:1679" ph="{...}" />
+            <marker date="1526809158612" expanded="true" signature="1193:1669" ph="{...}" />
+            <marker date="1526809158612" expanded="true" signature="1266:1523" ph="{...}" />
+            <marker date="1526809158612" expanded="true" signature="1689:1816" ph="/// Get underlying type if property is nullable value type, otherwise return null. ... " />
+            <marker date="1526809158612" expanded="true" signature="1891:1989" ph="/// Get converter if property is nullable value type. ... " />
+            <marker date="1526809158612" expanded="true" signature="2078:2238" ph="/// Indicate whether to use the last non-blank value. ... " />
+            <marker date="1526809158612" expanded="true" signature="2306:2395" ph="/// Indicate whether to ignore the property. ... " />
+            <marker date="1526809158612" expanded="true" signature="2450:2668" ph="/// Gets or sets the custom format, see https://support.office.com/en-us/article/Create-or-delete-a-custom-number ... " />
+            <marker date="1526809158612" expanded="true" signature="2727:2837" ph="/// Indicates whether or not to ignore all errors for the column. ... " />
+            <marker date="1526809158612" expanded="true" signature="2895:3012" ph="/// Try take cell value for the given column when import data from file. ... " />
+            <marker date="1526809158612" expanded="true" signature="3093:3212" ph="/// Try set value to cell for the given column when export object to file. ... " />
+            <marker date="1526809158612" expanded="false" signature="3312:4056" ph="Constructors" />
+            <marker date="1526809158612" expanded="true" signature="3342:3456" ph="/// Initialize a new instance of &lt;see cref=&quot;ColumnAttribute&quot;/&gt; class. ... " />
+            <marker date="1526809158612" expanded="true" signature="3504:3683" ph="/// Initialize a new instance of &lt;see cref=&quot;ColumnAttribute&quot;/&gt; class. ... " />
+            <marker date="1526809158612" expanded="true" signature="3730:3768" ph="{...}" />
+            <marker date="1526809158612" expanded="true" signature="3777:3954" ph="/// Initialize a new instance of &lt;see cref=&quot;ColumnAttribute&quot;/&gt; class. ... " />
+            <marker date="1526809158612" expanded="true" signature="4000:4036" ph="{...}" />
+            <marker date="1526809158612" expanded="true" signature="4066:8219" ph="Public Methods" />
+            <marker date="1526809158612" expanded="true" signature="4098:4240" ph="/// Get a member wise clone of this object. ... " />
+            <marker date="1526809158612" expanded="true" signature="4281:4349" ph="{...}" />
+            <marker date="1526809158612" expanded="true" signature="4359:4600" ph="/// Get a member wise clone of this object with given index. ... " />
+            <marker date="1526809158612" expanded="true" signature="4650:4754" ph="{...}" />
+            <marker date="1526809158612" expanded="true" signature="4764:5278" ph="/// Merge properties from a source &lt;see cref=&quot;ColumnAttribute&quot;/&gt; object. ... " />
+            <marker date="1526809158612" expanded="true" signature="5357:6457" ph="{...}" />
+            <marker date="1526809158612" expanded="true" signature="5458:5637" ph="{...}" />
+            <marker date="1526809158612" expanded="true" signature="5522:5623" ph="{...}" />
+            <marker date="1526809158612" expanded="true" signature="6467:6900" ph="/// Merge properties to a attribute dictionary. ... " />
+            <marker date="1526809158612" expanded="true" signature="7007:8199" ph="{...}" />
+            <marker date="1526809158612" expanded="true" signature="7365:7552" ph="{...}" />
+            <marker date="1526809158612" expanded="true" signature="7587:7808" ph="{...}" />
+            <marker date="1526809158612" expanded="true" signature="7974:8189" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zian.NpoiCore.Mapper/ColumnInfo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-169">
+          <caret line="107" column="8" selection-start-line="107" selection-start-column="8" selection-end-line="107" selection-end-column="8" />
+          <folding>
+            <marker date="1526809158599" expanded="false" signature="6:136" ph="..." />
+            <marker date="1526809158599" expanded="true" signature="168:5793" ph="{...}" />
+            <marker date="1526809158599" expanded="true" signature="175:294" ph="/// Information required for one column when mapping between object and file rows. ... " />
+            <marker date="1526809158599" expanded="true" signature="336:5791" ph="{...}" />
+            <marker date="1526809158599" expanded="false" signature="351:622" ph="Fields" />
+            <marker date="1526809158599" expanded="true" signature="632:1541" ph="Properties" />
+            <marker date="1526809158599" expanded="true" signature="660:737" ph="/// Value for the column header. ... " />
+            <marker date="1526809158599" expanded="true" signature="795:876" ph="/// The mapped property information. ... " />
+            <marker date="1526809158599" expanded="true" signature="941:1020" ph="/// The last non-blank cell value. ... " />
+            <marker date="1526809158599" expanded="true" signature="1084:1192" ph="/// The current cell value, might be used for custom resolving. ... " />
+            <marker date="1526809158599" expanded="true" signature="1251:1334" ph="/// Get or set the header cell format. ... " />
+            <marker date="1526809158599" expanded="true" signature="1393:1474" ph="/// Get or set the data cell format. ... " />
+            <marker date="1526809158599" expanded="false" signature="1551:3299" ph="Constructors" />
+            <marker date="1526809158599" expanded="true" signature="1581:1877" ph="/// Initialize a new instance of &lt;see cref=&quot;ColumnInfo&quot;/&gt; class. ... " />
+            <marker date="1526809158599" expanded="true" signature="1959:2158" ph="{...}" />
+            <marker date="1526809158599" expanded="true" signature="2067:2147" ph="{...}" />
+            <marker date="1526809158599" expanded="true" signature="2168:2466" ph="/// Initialize a new instance of &lt;see cref=&quot;ColumnInfo&quot;/&gt; class. ... " />
+            <marker date="1526809158599" expanded="true" signature="2546:2747" ph="{...}" />
+            <marker date="1526809158599" expanded="true" signature="2654:2736" ph="{...}" />
+            <marker date="1526809158599" expanded="true" signature="2757:3008" ph="/// Initialize a new instance of &lt;see cref=&quot;ColumnInfo&quot;/&gt; class. ... " />
+            <marker date="1526809158599" expanded="true" signature="3081:3279" ph="{...}" />
+            <marker date="1526809158599" expanded="true" signature="3309:5785" ph="Public Methods" />
+            <marker date="1526809158599" expanded="true" signature="3341:3734" ph="/// Refresh LastNonBlankValue and CurrentValue property then return value according UseLastNonBlankValue property ... " />
+            <marker date="1526809158599" expanded="true" signature="3789:4133" ph="{...}" />
+            <marker date="1526809158599" expanded="true" signature="3937:4056" ph="{...}" />
+            <marker date="1526809158599" expanded="true" signature="4143:4646" ph="/// Set style of the cell for export. ... " />
+            <marker date="1526809158599" expanded="true" signature="4779:5765" ph="{...}" />
+            <marker date="1526809158599" expanded="true" signature="4916:5277" ph="{...}" />
+            <marker date="1526809158599" expanded="true" signature="5074:5219" ph="{...}" />
+            <marker date="1526809158599" expanded="true" signature="5330:5687" ph="{...}" />
+            <marker date="1526809158599" expanded="true" signature="5494:5631" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zian.NpoiCore.Mapper/Mapper.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="27" column="32" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="32" />
+          <folding>
+            <marker date="1526809187815" expanded="false" signature="6:367" ph="..." />
+            <marker date="1526809187815" expanded="true" signature="399:42915" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="406:529" ph="/// Map object properties with Excel columns for importing from and exporting to file. ... " />
+            <marker date="1526809187815" expanded="true" signature="553:42913" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="568:917" ph="Fields" />
+            <marker date="1526809187815" expanded="true" signature="927:3803" ph="Properties" />
+            <marker date="1526809187815" expanded="true" signature="1559:1689" ph="/// Cache the tracked &lt;see cref=&quot;ColumnInfo&quot;/&gt; objects by sheet name and target type. ... " />
+            <marker date="1526809187815" expanded="true" signature="1862:1982" ph="/// Sheet name map to tracked objects in dictionary with row number as key. ... " />
+            <marker date="1526809187815" expanded="true" signature="2121:2189" ph="/// The Excel workbook. ... " />
+            <marker date="1526809187815" expanded="true" signature="2223:2567" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="2296:2557" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="2350:2508" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="2577:2698" ph="/// When map column, chars in this array will be removed from column header. ... " />
+            <marker date="1526809187815" expanded="true" signature="2761:2889" ph="/// When map column, column name will be truncated from any of chars in this array. ... " />
+            <marker date="1526809187815" expanded="true" signature="2952:3341" ph="/// Whether to track objects read from the Excel file. Default is true. ... " />
+            <marker date="1526809187815" expanded="true" signature="3406:3519" ph="/// Whether to take the first row as column header. Default is true. ... " />
+            <marker date="1526809187815" expanded="true" signature="3581:3705" ph="/// Set a zero-based row index for header. It will be auto-detected if not set. ... " />
+            <marker date="1526809187815" expanded="false" signature="3813:5225" ph="Constructors" />
+            <marker date="1526809187815" expanded="true" signature="3843:3948" ph="/// Initialize a new instance of &lt;see cref=&quot;Mapper&quot;/&gt; class. ... " />
+            <marker date="1526809187815" expanded="true" signature="3972:3992" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="4002:4216" ph="/// Initialize a new instance of &lt;see cref=&quot;Mapper&quot;/&gt; class with stream to read workbook. ... " />
+            <marker date="1526809187815" expanded="true" signature="4253:4485" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="4388:4475" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="4495:4687" ph="/// Initialize a new instance of &lt;see cref=&quot;Mapper&quot;/&gt; class with a workbook. ... " />
+            <marker date="1526809187815" expanded="true" signature="4729:4884" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="4894:5098" ph="/// Initialize a new instance of &lt;see cref=&quot;Mapper&quot;/&gt; class with file path to read workbook. ... " />
+            <marker date="1526809187815" expanded="true" signature="5185:5205" ph="{...}" />
+            <marker date="1526809187815" expanded="false" signature="5235:22554" ph="Public Methods" />
+            <marker date="1526809187815" expanded="true" signature="5267:5753" ph="/// Use this to include and map columns for custom complex resolution. ... " />
+            <marker date="1526809187815" expanded="true" signature="5912:6086" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="6096:6327" ph="/// Map by a &lt;see cref=&quot;ColumnAttribute&quot;/&gt; object. ... " />
+            <marker date="1526809187815" expanded="true" signature="6380:7444" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="6522:6597" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="6650:7234" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="6739:6859" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="6880:7220" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="7017:7126" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="7251:7408" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="7454:7829" ph="/// Specify to use last non-blank value from above cell for a property. ... " />
+            <marker date="1526809187815" expanded="true" signature="7921:8186" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="8196:8521" ph="/// Specify to ignore a property. Ignored property will not be mapped for import and export. ... " />
+            <marker date="1526809187815" expanded="true" signature="8599:8851" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="8861:9885" ph="/* Specify the built-in format. ... */" />
+            <marker date="1526809187815" expanded="true" signature="9895:10362" ph="/// Specify the custom format. ... " />
+            <marker date="1526809187815" expanded="true" signature="10461:10726" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="10736:10967" ph="/// Sets an action to configure header cells for export. ... " />
+            <marker date="1526809187815" expanded="true" signature="11027:11114" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="11124:11663" ph="/// Get objects of target type by converting rows in the sheet with specified index (zero based). ... " />
+            <marker date="1526809187815" expanded="true" signature="11803:11945" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="11955:12464" ph="/// Get objects of target type by converting rows in the sheet with specified name. ... " />
+            <marker date="1526809187815" expanded="true" signature="12602:12741" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="12751:13132" ph="/// Put objects in the sheet with specified name. ... " />
+            <marker date="1526809187815" expanded="true" signature="13224:13442" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="13452:13862" ph="/// Put objects in the sheet with specified zero-based index. ... " />
+            <marker date="1526809187815" expanded="true" signature="13956:14206" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="14216:14377" ph="/// Saves the current workbook to specified file. ... " />
+            <marker date="1526809187815" expanded="true" signature="14415:14594" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="14604:14774" ph="/// Saves the current workbook to specified stream. ... " />
+            <marker date="1526809187815" expanded="true" signature="14814:14871" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="14881:15490" ph="/// Saves the specified objects to the specified Excel file. ... " />
+            <marker date="1526809187815" expanded="true" signature="15614:15854" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="15864:16475" ph="/// Saves the specified objects to the specified Excel file. ... " />
+            <marker date="1526809187815" expanded="true" signature="16601:16842" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="16852:17456" ph="/// Saves the specified objects to the specified stream. ... " />
+            <marker date="1526809187815" expanded="true" signature="17582:17864" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="17874:18480" ph="/// Saves the specified objects to the specified stream. ... " />
+            <marker date="1526809187815" expanded="true" signature="18608:18922" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="18932:19472" ph="/// Saves tracked objects to the specified Excel file. ... " />
+            <marker date="1526809187815" expanded="true" signature="19572:19806" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="19816:20358" ph="/// Saves tracked objects to the specified Excel file. ... " />
+            <marker date="1526809187815" expanded="true" signature="20460:20695" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="20705:21233" ph="/// Saves tracked objects to the specified stream. ... " />
+            <marker date="1526809187815" expanded="true" signature="21335:21612" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="21622:22159" ph="/// Saves tracked objects to the specified stream. ... " />
+            <marker date="1526809187815" expanded="true" signature="22263:22534" ph="{...}" />
+            <marker date="1526809187815" expanded="false" signature="22564:42907" ph="Private Methods" />
+            <marker date="1526809187815" expanded="false" signature="22597:36351" ph="Import" />
+            <marker date="1526809187815" expanded="true" signature="22742:24642" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="22817:22874" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="23086:23258" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="23902:24632" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="24373:24491" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="24693:26449" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="24913:26373" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="25152:25271" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="25292:26359" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="25541:25619" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="25748:25966" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="25991:26139" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="26521:28562" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="26544:26678" ph="/* Column mapping priority: ... */" />
+            <marker date="1526809187815" expanded="true" signature="26974:28285" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="27248:27526" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="27374:27508" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="27597:28005" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="27799:27987" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="28636:29778" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="28801:29742" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="29389:29728" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="29428:29587" ph="/* Use a clone so no pollution to original attribute, ... */" />
+            <marker date="1526809187815" expanded="true" signature="29856:31083" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="30014:31047" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="30694:31033" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="30733:30892" ph="/* Use a clone so no pollution to original attribute, ... */" />
+            <marker date="1526809187815" expanded="true" signature="31166:32550" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="31335:31889" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="31520:31875" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="31739:31857" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="31918:32154" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="32288:32433" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="32659:32924" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="33041:35477" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="33191:33476" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="33521:35366" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="33649:35227" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="33935:34093" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="34221:34483" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="34314:34461" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="34534:35209" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="34753:34885" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="34914:35062" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="35263:35352" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="35537:36171" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="35664:35751" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="35782:36134" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="36227:36331" ph="{...}" />
+            <marker date="1526809187815" expanded="false" signature="36361:42887" ph="Export" />
+            <marker date="1526809187815" expanded="true" signature="36458:38685" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="37281:38199" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="37392:37523" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="37629:38156" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="38005:38138" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="38306:38467" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="38583:38675" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="38760:39036" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="39135:39235" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="39325:41526" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="39487:39841" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="39549:39798" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="40328:40756" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="40565:40667" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="40900:41491" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="41198:41301" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="41322:41452" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="41607:41966" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="41830:41917" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="42086:42860" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="42151:42228" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="42268:42348" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="42398:42486" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="42522:42598" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="42615:42696" ph="{...}" />
+            <marker date="1526809187815" expanded="true" signature="42741:42850" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zian.EPPlus.Mapper/MapperHelper.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <folding>
+            <marker date="1526862812831" expanded="true" signature="28:154" ph="{...}" />
+            <marker date="1526862812831" expanded="true" signature="74:95" ph="{...}" />
+            <marker date="1526862812831" expanded="true" signature="131:152" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zian.NpoiCore.Mapper/MapHelper.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
+          <folding>
+            <marker date="1526809187810" expanded="false" signature="6:291" ph="..." />
+            <marker date="1526809187810" expanded="true" signature="323:23185" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="330:444" ph="/// Provide static supportive functionalities for &lt;see cref=&quot;Mapper&quot;/&gt; class. ... " />
+            <marker date="1526809187810" expanded="true" signature="471:23183" ph="{...}" />
+            <marker date="1526809187810" expanded="false" signature="486:2600" ph="Fields" />
+            <marker date="1526809187810" expanded="true" signature="510:634" ph="/// Stores cached built-in styles to avoid create new ICellStyle for each cell. ... " />
+            <marker date="1526809187810" expanded="true" signature="753:886" ph="/// Stores cached custom styles to avoid create new ICellStyle for each customized cell. ... " />
+            <marker date="1526809187810" expanded="true" signature="1006:1134" ph="/* Column chars that will be used for Excel columns. ... */" />
+            <marker date="1526809187810" expanded="true" signature="1920:2010" ph="/// Caches for type of string during parsing. ... " />
+            <marker date="1526809187810" expanded="true" signature="2085:2177" ph="/// Caches for type of DateTime during parsing. ... " />
+            <marker date="1526809187810" expanded="true" signature="2256:2331" ph="/// Caches for type of object. ... " />
+            <marker date="1526809187810" expanded="true" signature="2406:2525" ph="/// The maximum row number during the detection for column type and style. ... " />
+            <marker date="1526809187810" expanded="true" signature="2610:19263" ph="Public Methods" />
+            <marker date="1526809187810" expanded="true" signature="2642:2862" ph="/// Loads attributes to a dictionary. ... " />
+            <marker date="1526809187810" expanded="true" signature="2969:3913" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="3082:3903" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="3525:3691" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="3923:4276" ph="/// Loads dynamic attributes to a dictionary. ... " />
+            <marker date="1526809187810" expanded="true" signature="4452:4779" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="4514:4769" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="4621:4755" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="4789:4896" ph="/// Clear cached data for cell styles and tracked column info. ... " />
+            <marker date="1526809187810" expanded="true" signature="4929:5020" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="5030:5466" ph="/// Load cell data format by a specified row. ... " />
+            <marker date="1526809187810" expanded="true" signature="5614:6905" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="5749:6895" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="5920:6344" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="6013:6129" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="6204:6326" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="6528:6881" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="6915:7292" ph="/// Get the cell style. ... " />
+            <marker date="1526809187810" expanded="true" signature="7385:8521" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="7544:7931" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="7619:7712" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="7755:7917" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="7970:8484" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="8084:8153" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="8210:8298" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="8319:8470" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="8531:8866" ph="/// Creates a &lt;see cref=&quot;ICellStyle&quot;/&gt; object by the given &lt;see cref=&quot;IWorkbook&quot;/&gt;. ... " />
+            <marker date="1526809187810" expanded="true" signature="8950:9358" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="9368:9704" ph="/// Creates a &lt;see cref=&quot;ICellStyle&quot;/&gt; object by the given &lt;see cref=&quot;IWorkbook&quot;/&gt;. ... " />
+            <marker date="1526809187810" expanded="true" signature="9787:10053" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="10063:10498" ph="/// Gets a &lt;see cref=&quot;ICellStyle&quot;/&gt; object based on value's type by looking up the default format dictionary. ... " />
+            <marker date="1526809187810" expanded="true" signature="10615:11324" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="10951:11008" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="11061:11195" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="11212:11287" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="11334:11538" ph="/// Get underline cell type if the cell is in formula. ... " />
+            <marker date="1526809187810" expanded="true" signature="11593:11714" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="11724:12085" ph="/// Try get cell value. ... " />
+            <marker date="1526809187810" expanded="true" signature="12175:13342" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="12327:13303" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="12611:12707" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="12747:12846" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="13352:13705" ph="/// Get mapped &lt;c&gt;PropertyInfo&lt;/c&gt; by property selector expression. ... " />
+            <marker date="1526809187810" expanded="true" signature="13817:14487" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="14265:14400" ph="/* body.Member will return the MemberInfo of base class, so we have to get it from T... ... */" />
+            <marker date="1526809187810" expanded="true" signature="14497:14919" ph="/// Get refined name by removing specified chars and truncating by specified chars. ... " />
+            <marker date="1526809187810" expanded="true" signature="15022:15538" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="15548:16094" ph="/// Get a valid variable name by removing specified chars and truncating by specified chars. ... " />
+            <marker date="1526809187810" expanded="true" signature="16218:16481" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="16355:16442" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="16491:16726" ph="/// Get column name in Excel, like A, B, AC. ... " />
+            <marker date="1526809187810" expanded="true" signature="16791:17289" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="17299:17724" ph="/// Determines the data type for the specified column according the first non-blank data cell. ... " />
+            <marker date="1526809187810" expanded="true" signature="17815:19243" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="18237:19207" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="18390:19165" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="18541:19147" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="19389:20235" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="19412:19478" ph="/* For now, only take care DateTime. ... */" />
+            <marker date="1526809187810" expanded="true" signature="19537:19672" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="19717:20225" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="19935:20211" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="20077:20193" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="20396:22673" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="20844:22452" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="20904:21015" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="21064:21445" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="21303:21427" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="21571:21715" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="21755:21896" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="22041:22438" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="22123:22204" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="22338:22420" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="22469:22561" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="22592:22637" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="22800:23177" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="22933:23141" ph="{...}" />
+            <marker date="1526809187810" expanded="true" signature="23064:23127" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zian.EPPlus.Mapper/ExcelMapper.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+          <folding>
+            <marker date="1526863043434" expanded="true" signature="6:47" ph="..." />
+            <marker date="1526863043434" expanded="true" signature="77:322" ph="{...}" />
+            <marker date="1526863043434" expanded="true" signature="108:320" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zian.EPPlus.Mapper/CellMapper.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+          <folding>
+            <marker date="1526863031080" expanded="false" signature="6:47" ph="..." />
+            <marker date="1526863031080" expanded="true" signature="77:477" ph="{...}" />
+            <marker date="1526863031080" expanded="true" signature="107:475" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

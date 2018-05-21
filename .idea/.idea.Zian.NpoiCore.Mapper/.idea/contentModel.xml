@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Zian.EPPlus.Mapper" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="CellMapper.cs" t="Include" />
+        <e p="ExcelMapper.cs" t="Include" />
+        <e p="MapperHelper.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.0" t="Include">
+              <e p="Zian.EPPlus.Mapper.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Zian.EPPlus.Mapper.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="Zian.NpoiCore.Mapper" t="IncludeRecursive">
+        <e p="AnonymousTypeFactory.cs" t="Include" />
+        <e p="Attributes" t="Include">
+          <e p="ColumnAttribute.cs" t="Include" />
+          <e p="IgnoreAttribute.cs" t="Include" />
+          <e p="UseLastNonBlankValueAttribute.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="ColumnInfo.cs" t="Include" />
+        <e p="Extensions" t="Include">
+          <e p="EnumerableExtensions.cs" t="Include" />
+          <e p="FormatExtensions.cs" t="Include" />
+          <e p="MapExtensions.cs" t="Include" />
+          <e p="TypeExtensions.cs" t="Include" />
+        </e>
+        <e p="IColumnInfo.cs" t="Include" />
+        <e p="IRowInfo.cs" t="Include" />
+        <e p="MapHelper.cs" t="Include" />
+        <e p="Mapper.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.0" t="Include">
+              <e p="Zian.NpoiCore.Mapper.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="RowInfo.cs" t="Include" />
+        <e p="Zian.NpoiCore.Mapper.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="Zian.NpoiCore.Mapper.sln" t="IncludeFlat" />
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2018.1/resharper-host/local/Transient/ReSharperHost/v12/SolutionCaches/_Zian.NpoiCore.Mapper.-1054279676.00" t="ExcludeRecursive" />
+  </component>
+</project>

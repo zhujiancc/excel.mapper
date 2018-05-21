@@ -1,0 +1,9 @@
+/Users/zhujian/Desktop/Nuget/Zian.NpoiCore.Mapper/Zian.NpoiCore.Mapper/obj/Debug/netcoreapp2.0/Zian.NpoiCore.Mapper.csprojAssemblyReference.cache
+/Users/zhujian/Desktop/Nuget/Zian.NpoiCore.Mapper/Zian.NpoiCore.Mapper/obj/Debug/netcoreapp2.0/Zian.NpoiCore.Mapper.csproj.CoreCompileInputs.cache
+/Users/zhujian/Desktop/Nuget/Zian.NpoiCore.Mapper/Zian.NpoiCore.Mapper/obj/Debug/netcoreapp2.0/Zian.NpoiCore.Mapper.AssemblyInfoInputs.cache
+/Users/zhujian/Desktop/Nuget/Zian.NpoiCore.Mapper/Zian.NpoiCore.Mapper/obj/Debug/netcoreapp2.0/Zian.NpoiCore.Mapper.AssemblyInfo.cs
+/Users/zhujian/Desktop/Nuget/Zian.NpoiCore.Mapper/Zian.NpoiCore.Mapper/bin/Debug/netcoreapp2.0/Zian.NpoiCore.Mapper.deps.json
+/Users/zhujian/Desktop/Nuget/Zian.NpoiCore.Mapper/Zian.NpoiCore.Mapper/bin/Debug/netcoreapp2.0/Zian.NpoiCore.Mapper.dll
+/Users/zhujian/Desktop/Nuget/Zian.NpoiCore.Mapper/Zian.NpoiCore.Mapper/bin/Debug/netcoreapp2.0/Zian.NpoiCore.Mapper.pdb
+/Users/zhujian/Desktop/Nuget/Zian.NpoiCore.Mapper/Zian.NpoiCore.Mapper/obj/Debug/netcoreapp2.0/Zian.NpoiCore.Mapper.dll
+/Users/zhujian/Desktop/Nuget/Zian.NpoiCore.Mapper/Zian.NpoiCore.Mapper/obj/Debug/netcoreapp2.0/Zian.NpoiCore.Mapper.pdb

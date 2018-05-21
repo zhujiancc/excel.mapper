@@ -1,0 +1,47 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/zhujian/Desktop/Nuget/Zian.NpoiCore.Mapper/Zian.NpoiCore.Mapper/Zian.NpoiCore.Mapper.csproj",
+    "projectName": "Zian.NpoiCore.Mapper",
+    "projectPath": "/Users/zhujian/Desktop/Nuget/Zian.NpoiCore.Mapper/Zian.NpoiCore.Mapper/Zian.NpoiCore.Mapper.csproj",
+    "outputPath": "/Users/zhujian/Desktop/Nuget/Zian.NpoiCore.Mapper/Zian.NpoiCore.Mapper/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.0"
+    ],
+    "frameworks": {
+      "netcoreapp2.0": {
+        "projectReferences": {}
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.0": {
+      "dependencies": {
+        "DotNetCore.NPOI": {
+          "target": "Package",
+          "version": "[1.0.2, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.0.0, )",
+          "autoReferenced": true
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

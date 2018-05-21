@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zian.NpoiCore.Mapper", "Zian.NpoiCore.Mapper\Zian.NpoiCore.Mapper.csproj", "{A693646A-CB3F-42B0-A10C-AA58AFFFC2AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zian.EPPlus.Mapper", "Zian.EPPlus.Mapper\Zian.EPPlus.Mapper.csproj", "{86932876-7E88-45A0-B595-1DF914175699}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A693646A-CB3F-42B0-A10C-AA58AFFFC2AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A693646A-CB3F-42B0-A10C-AA58AFFFC2AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A693646A-CB3F-42B0-A10C-AA58AFFFC2AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A693646A-CB3F-42B0-A10C-AA58AFFFC2AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86932876-7E88-45A0-B595-1DF914175699}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86932876-7E88-45A0-B595-1DF914175699}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86932876-7E88-45A0-B595-1DF914175699}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86932876-7E88-45A0-B595-1DF914175699}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
